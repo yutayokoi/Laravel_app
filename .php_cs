@@ -8,7 +8,7 @@ $finder = Symfony\CS\Finder\DefaultFinder::create()
     ->in(__DIR__);
 
 $fixers = [
-  '-psr0',
+  '-psr2',
   '-phpdoc_no_empty_return',
   '-phpdoc_no_package',
   '-phpdoc_params',

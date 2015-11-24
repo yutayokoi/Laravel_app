@@ -19,7 +19,8 @@
         "fzaninotto/faker": "~1.4",
         "phpunit/phpunit": "~4.0",
         "phpspec/phpspec": "~2.1",
-        "mockery/mockery": "*"
+        "mockery/mockery": "*",
+        "fabpot/php-cs-fixer": "^1.10"
     },
     "autoload": {
         "classmap": [

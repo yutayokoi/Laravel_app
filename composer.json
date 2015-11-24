@@ -21,7 +21,8 @@
         "phpspec/phpspec": "~2.1",
         "mockery/mockery": "*",
         "fabpot/php-cs-fixer": "^1.10",
-        "squizlabs/php_codesniffer": "^2.4"
+        "squizlabs/php_codesniffer": "^2.4",
+        "phpmd/phpmd": "@stable"
     },
     "autoload": {
         "classmap": [

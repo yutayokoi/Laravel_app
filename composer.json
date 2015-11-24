@@ -22,7 +22,8 @@
         "mockery/mockery": "*",
         "fabpot/php-cs-fixer": "^1.10",
         "squizlabs/php_codesniffer": "^2.4",
-        "phpmd/phpmd": "@stable"
+        "phpmd/phpmd": "@stable",
+        "laravel-ja/comja5": "^1.0"
     },
     "autoload": {
         "classmap": [

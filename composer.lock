@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2b3864ef9560ba735931e6ee866507d8",
-    "content-hash": "8c9e6dd53893ff1b0f254e43ddba4640",
+    "hash": "262729b022e31a59cff75211621c6eb6",
+    "content-hash": "9c810249f7aa348331a8501c5166cdef",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -3242,6 +3242,58 @@
                 "fixtures"
             ],
             "time": "2015-05-29 06:29:14"
+        },
+        {
+            "name": "laravel-ja/comja5",
+            "version": "1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-ja/comja5.git",
+                "reference": "9214d05589312eaef9bf61efb1587f55a7576871"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-ja/comja5/zipball/9214d05589312eaef9bf61efb1587f55a7576871",
+                "reference": "9214d05589312eaef9bf61efb1587f55a7576871",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "4.5.0"
+            },
+            "bin": [
+                "bin/comja5"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Comja\\": "Comja/"
+                },
+                "files": [
+                    "helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hirohisa Kawase",
+                    "email": "hiro.soft@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Translate comments in laravel/laravel version5 to Japanese",
+            "keywords": [
+                "japanese",
+                "laravel",
+                "resource"
+            ],
+            "time": "2015-09-10 01:38:30"
         },
         {
             "name": "pdepend/pdepend",

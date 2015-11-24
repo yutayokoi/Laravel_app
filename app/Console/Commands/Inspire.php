@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace app\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;
@@ -8,21 +8,21 @@ use Illuminate\Foundation\Inspiring;
 class Inspire extends Command
 {
     /**
-     * The name and signature of the console command.
+     * コンソールコマンドの識別名
      *
      * @var string
      */
     protected $signature = 'inspire';
 
     /**
-     * The console command description.
+     * コンソールコマンドの説明
      *
      * @var string
      */
     protected $description = 'Display an inspiring quote';
 
     /**
-     * Execute the console command.
+     * コンソールコマンドの実行
      *
      * @return mixed
      */

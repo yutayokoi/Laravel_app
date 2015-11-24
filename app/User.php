@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace app;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -12,7 +12,6 @@ use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 
 /**
  * App\User
- *
  */
 class User extends Model implements AuthenticatableContract,
                                     AuthorizableContract,
@@ -21,21 +20,21 @@ class User extends Model implements AuthenticatableContract,
     use Authenticatable, Authorizable, CanResetPassword;
 
     /**
-     * The database table used by the model.
+     * モデルで使用するデータベーステーブル
      *
      * @var string
      */
     protected $table = 'users';
 
     /**
-     * The attributes that are mass assignable.
+     * 複数代入を行う属性
      *
      * @var array
      */
     protected $fillable = ['name', 'email', 'password'];
 
     /**
-     * The attributes excluded from the model's JSON form.
+     * モデルのJSON形式に含めない属性
      *
      * @var array
      */

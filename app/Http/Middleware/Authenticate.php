@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace app\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
@@ -8,16 +8,17 @@ use Illuminate\Contracts\Auth\Guard;
 class Authenticate
 {
     /**
-     * The Guard implementation.
+     * Guardの実装
      *
      * @var Guard
      */
     protected $auth;
 
     /**
-     * Create a new filter instance.
+     * 新しいフィルターインスタンス
      *
      * @param  Guard  $auth
+     *
      * @return void
      */
     public function __construct(Guard $auth)
@@ -26,10 +27,11 @@ class Authenticate
     }
 
     /**
-     * Handle an incoming request.
+     * 送られてきたリクエストの処理
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \Closure  $next
+     *
      * @return mixed
      */
     public function handle($request, Closure $next)

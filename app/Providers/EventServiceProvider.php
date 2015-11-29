@@ -21,7 +21,7 @@ class EventServiceProvider extends ServiceProvider
     /**
      * アプリケーションのその他のイベントの登録
      *
-     * @param  \Illuminate\Contracts\Events\Dispatcher  $events
+     * @param  \Illuminate\Contracts\Events\Dispatcher $events
      *
      * @return void
      */

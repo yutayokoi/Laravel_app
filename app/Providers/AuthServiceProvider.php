@@ -19,7 +19,7 @@ class AuthServiceProvider extends ServiceProvider
     /**
      * アプリケーションの認証と認可サービスの登録
      *
-     * @param  \Illuminate\Contracts\Auth\Access\Gate  $gate
+     * @param  \Illuminate\Contracts\Auth\Access\Gate $gate
      *
      * @return void
      */

@@ -16,7 +16,9 @@
     "symfony/psr-http-message-bridge": "^0.2.0",
     "zendframework/zend-diactoros": "^1.1",
     "laravel/socialite": "^2.0",
-    "barryvdh/laravel-debugbar": "^2.0"
+    "barryvdh/laravel-debugbar": "^2.0",
+    "laravel-ja/comja5": "~1",
+    "filp/whoops": "~1.0"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
@@ -25,8 +27,7 @@
     "mockery/mockery": "*",
     "fabpot/php-cs-fixer": "^1.10",
     "squizlabs/php_codesniffer": "^2.4",
-    "phpmd/phpmd": "@stable",
-    "laravel-ja/comja5": "^1.0"
+    "phpmd/phpmd": "@stable"
   },
   "autoload": {
     "classmap": [

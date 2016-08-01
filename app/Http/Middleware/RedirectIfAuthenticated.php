@@ -17,7 +17,7 @@ class RedirectIfAuthenticated
     /**
      * 新しいフィルターインスタンス
      *
-     * @param  Guard  $auth
+     * @param  Guard $auth
      *
      * @return void
      */
@@ -29,8 +29,8 @@ class RedirectIfAuthenticated
     /**
      * 送られてきたリクエストの処理
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
+     * @param  \Illuminate\Http\Request $request
+     * @param  \Closure $next
      *
      * @return mixed
      */

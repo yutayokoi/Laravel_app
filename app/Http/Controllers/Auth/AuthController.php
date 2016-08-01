@@ -2,11 +2,11 @@
 
 namespace app\Http\Controllers\Auth;
 
-use App\User;
-use Validator;
 use App\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\ThrottlesLogins;
+use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Illuminate\Foundation\Auth\ThrottlesLogins;
+use Validator;
 
 class AuthController extends Controller
 {
@@ -36,7 +36,7 @@ class AuthController extends Controller
     /**
      * やって来た登録リクエストに対するバリデターを取得
      *
-     * @param  array  $data
+     * @param  array $data
      *
      * @return \Illuminate\Contracts\Validation\Validator
      */
@@ -52,7 +52,7 @@ class AuthController extends Controller
     /**
      * 登録内容を確認後、新しいユーザーインスタンスを生成
      *
-     * @param  array  $data
+     * @param  array $data
      *
      * @return User
      */
